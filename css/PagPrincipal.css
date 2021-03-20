@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Arciform Sans", "Segoe UI", Arial;
+	src:url("fonts/Arciform.otf");
+}
+body {
+	background: rgba(0, 93, 255, .54);
+}
+.contenedor {
+	width: 100%;
+	height: 95vh;
+}
+header .conlogo {
+	width: 100%;
+	margin-top: 20px;
+	display: inline-block;
+}
+header .logo {
+	width: 90%;
+}
+header .mbarras {
+	width: 85%;
+	margin-top: 25px;
+	display: inline-block;
+}
+header .mbarras1 {
+	width: 100%;
+}
+nav {
+	visibility: hidden;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(114,221,247, .92);
+	padding-top: 10vh;
+}
+nav a {
+	font-weight: bold;
+	font-family: "Segoe UI";
+	font-size: 6vw;
+	color: #fff;
+	text-decoration: none;
+	margin: 10px; 
+}
+nav .btn-admision {
+	color: #fff;
+	text-decoration: none;
+}
+nav .btn-IniciaSesion {
+	color: #fff;
+	text-decoration: none;
+}
+nav span{
+	position: relative;
+	left: 40%;
+	bottom: 120%;
+}
+header .lineaMenu {
+	visibility: hidden;
+	background: #fff;
+	padding: 1.5px;
+	width: 99%;
+}
+article h1, h2 {
+	font-family: "Arciform Sans";
+	color: #fff;
+}
+article h1 {
+	font-size: 10.9vw;
+	text-align: center;
+	margin: 8px 25px;
+}
+article h2 {
+	font-size: 7vw;
+	text-align: center;
+}
+article .jovenesyleon {
+	visibility: hidden;
+	width: 100%;
+}
+article .btn-admision {
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 7vw;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background: #F6AE2D;
+	margin: 12px 30px;
+	padding-top: 2.3%;
+	border-radius: 29px;
+}
+article .btn-IniciaSesion {
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 7vw;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background: #59E854;
+	margin: 12px 30px;
+	padding-top: 2.3%;
+	border-radius: 29px;
+}
+article .leon {
+	width: 100%;
+}
+article .cuadro-consultas {
+	visibility: hidden;
+	background: #fff;
+	width: 90%;
+	margin-top: 35px;
+	border-radius: 12px;
+}
+article div h3 {
+	font-family: "Segoe UI";
+	color: #6a6e71;
+	text-align: center;
+	font-weight: normal; 
+}
+footer {
+	background: #bba0c9;
+	width: 100%;
+}
+footer h3 {
+	font-family: "Segoe UI";
+	font-size: 4.5vw;
+	color: #000;
+	margin-left: 8px;
+}
+footer .barrita {  
+	width: 2px;
+	height: 28px;
+	background: #000;
+}
+footer .facebook, .youtube {
+	width: 100%;
+	margin-top: 5px;
+}

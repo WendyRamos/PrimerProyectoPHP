@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Arciform Sans", "Segoe UI", Arial;
+	src:url("fonts/Arciform.otf");
+}
+body {
+	background: rgba(0, 93, 255, .54);
+}
+.contenedor {
+	width: 100%;
+	height: 95vh;
+}
+header .conlogo {
+	width: 100%;
+	margin-top: 20px;
+	display: inline-block;
+}
+header .logo {
+	width: 90%;
+}
+header .mbarras {
+	width: 85%;
+	margin-top: 25px;
+	display: inline-block;
+}
+header .mbarras1 {
+	width: 100%;
+}
+nav {
+	visibility: hidden;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(114,221,247, .92);
+	padding-top: 10vh;
+}
+nav a {
+	font-weight: bold;
+	font-family: "Segoe UI";
+	font-size: 6vw;
+	color: #fff;
+	text-decoration: none;
+	margin: 10px; 
+}
+nav .btn-admision {
+	color: #fff;
+	text-decoration: none;
+}
+nav .btn-IniciaSesion {
+	color: #fff;
+	text-decoration: none;
+}
+nav span{
+	position: relative;
+	left: 40%;
+	bottom: 120%;
+}
+header .lineaMenu {
+	visibility: hidden;
+	background: #fff;
+	padding: 1.5px;
+	width: 99%;
+}
+article {
+	height: 481vh;
+}
+.main {
+	width: 100%;
+	height: 81vh;
+}
+.main .leon {
+	width: 100%;
+}
+.main .leonCompleto {
+	visibility: hidden;
+	width: 80%;
+}
+section h2, h3 {
+	font-family: "Arciform Sans";
+}
+section h2 {
+	text-align:center;
+	color: #fff;
+	font-size: 9vw;
+	margin:0 2.5%;
+}
+section h3 {
+	text-align:center;
+	color: #FFD9DA;
+	font-size: 5vw;
+	margin: 0 2.5%;
+}
+section p {
+	font-family: "Arciform Sans";
+	color: #707070;
+}
+section div {
+	width: 100%;
+}
+section .btn {
+	font-family: "Segoe UI";
+	font-size: 5vw;
+	color:#fff;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin: 5% 3%;
+	padding: 2% 3%;
+	border: 3px solid rgb(255, 255, 255);
+	border-radius: 16px;
+}
+.main1 {
+	width: 100%;
+	height: 200vh;
+	background: #E1B1F2;
+}
+.main1 h2 {
+	font-size: 16vw;
+	font-weight: normal;
+}
+.main1 .quieneSomos {
+	text-align: center;
+	margin: 0 10%;
+}
+.main1 .mision {
+	font-size: 16vw;
+}
+.main1 .Pmision {
+	width: 100%;
+	height: 70%;
+	font-size: 4vw;
+	text-align: center;
+	color: #95989A;
+	background: #fff;
+	border: 1px solid rgb(149, 152, 154);
+	margin-top: 12%;
+	padding: 5% 2%;
+}
+.main1 .Pmision1 {
+	visibility: hidden;
+	width: 100%;
+	background: #fff;
+	border: 1px solid rgb(149, 152, 154);
+}
+.main1 .vision {
+	font-size: 16vw;
+}
+.main1 .Pvision {
+	width: 100%;
+	height: 70%;
+	font-size: 4vw;
+	text-align: center;
+	color: #95989A;
+	background: #fff;
+	border: 1px solid rgb(149, 152, 154);
+	padding: 5% 2%;
+}
+.main1 .Pvision1 {
+	visibility: hidden;
+	width: 100%;
+	background: #fff;
+	border: 1px solid rgb(149, 152, 154);
+}
+.main1 div {
+	background: #fff;
+	width: 100%;
+	height: 102%;
+}
+.main2 {
+	width: 100%;
+	height: 100vh;
+	background: #EFD6AC;
+	background-image: url(../img/FondoEscolarCel.png);
+}
+.main3 {
+	width: 100%;
+	height: 100vh;
+	background: #FFD9DA;
+	background-image: url(../img/FondoEscolarCel.png);
+}
+.main3 h2 {
+	font-size: 13vw;
+}
+.main3 iframe {
+	width: 94%;
+	margin: 0 0 3.5% 3%;
+}
+.main3 .btn-descarga {
+	width: 100%;
+	background: #F6AE2D;
+	font-family: "Segoe UI";
+	text-align: center;
+	font-size: 6vw;
+	color: #fff;
+	margin: 8% 0;
+	border-radius: 34px;
+	justify-self:center;
+}
+footer {
+	background: #bba0c9;
+	width: 100%;
+}
+footer h3 {
+	font-family: "Segoe UI";
+	font-size: 4.5vw;
+	color: #000;
+	margin-left: 8px;
+}
+footer .barrita {  
+	width: 2px;
+	height: 28px;
+	background: #000;
+}
+footer .facebook, .youtube {
+	width: 100%;
+	margin-top: 5px;
+}
