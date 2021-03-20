@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Arciform Sans", "Segoe UI", Arial;
+	src:url("fonts/Arciform.otf");
+}
+body {
+	background: rgba(0, 93, 255, .54);
+}
+form {
+    width: 800px;
+    margin: 255px auto;
+}
+form input[type="text"] {
+	width: 48%;
+	margin: 10px 10px 0 0;
+	padding: 15px 10px;
+	border: 1px solid #ccc;
+	font-family: Arial;
+	font-size: 18px; 
+	display: inline-block;
+}
+form input[type="text"]:focus{
+	border-bottom: 2px solid #246eb9;
+}
+form .btn-form {
+	width: 50%;
+	text-align: center;
+	background: #246eb9;
+	color: #fff;
+    border: none;
+    margin: 8px 0 0 190px;
+	padding: 15px 10px;
+	cursor: pointer;
+	border-radius: 6px;
+	font-size: 18px;
+}form .btn-form:hover {
+	background: #4357ad;
+}
+form select {
+	width: 48%;
+	margin: 10px 10px 0 0;
+	padding: 15px 10px;
+	border: 1px solid #ccc;
+	font-family: Arial;
+	font-size: 18px; 
+	display: inline-block;
+}
+}

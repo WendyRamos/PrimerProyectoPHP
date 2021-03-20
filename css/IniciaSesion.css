@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: "Arciform Sans", "Segoe UI", Arial;
+	src:url("fonts/Arciform.otf");
+}
+body {
+	background: rgba(0, 93, 255, .54);
+}
+.contenedor {
+	width: 100%;
+	height: 95vh;
+}
+header .conlogo {
+	width: 100%;
+	margin-top: 20px;
+	display: inline-block;
+}
+header .logo {
+	width: 90%;
+}
+header .mbarras {
+	width: 85%;
+	margin-top: 25px;
+	display: inline-block;
+}
+header .mbarras1 {
+	width: 100%;
+}
+nav {
+	visibility: hidden;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(114,221,247, .92);
+	padding-top: 10vh;
+}
+nav a {
+	font-weight: bold;
+	font-family: "Segoe UI";
+	font-size: 6vw;
+	color: #fff;
+	text-decoration: none;
+	margin: 10px; 
+}
+nav .btn-admision {
+	color: #fff;
+	text-decoration: none;
+}
+nav .btn-IniciaSesion {
+	color: #fff;
+	text-decoration: none;
+}
+nav span{
+	position: relative;
+	left: 40%;
+	bottom: 120%;
+}
+header .lineaMenu {
+	visibility: hidden;
+	background: #fff;
+	padding: 1.5px;
+	width: 99%;
+}
+article .jovenesyleon {
+	visibility: hidden;
+}
+article img, input {
+	width: 100%;
+}
+article input, h4 {
+	font-family: "Segoe UI";
+}
+article input[type="email"],
+article input[type="password"] {
+	height: 29%;
+	font-size: 5vw;
+	color: #000;
+	border: 1px solid rgb(112, 112, 112);
+	border-radius: 48px;
+	margin-top: 3%;
+	padding-left: 8%; 
+}
+article .usuario, .llave {
+	width: 75%;
+	z-index: 2;
+}
+article .llave {
+	transform: rotate(45deg);
+	margin-top: 18%;
+}
+article input[type="submit"] {
+	height: 25%;
+	font-weight: bold;
+	font-size: 6vw;
+	color: #fff;
+	background: #59E854;
+	border: 1px solid rgb(89, 232, 84);
+	border-radius: 29px;
+	margin-top: 3%;
+}
+article h4 {
+	font-size: 4.8vw;
+	color: #574B4B;
+}
+article p {
+	font-size: 1vw;
+	font-family: Arial;
+	color: #574B4B;
+}
+article p a {
+	color: #fff;
+	text-decoration: none;
+}
+article p a:hover {
+	text-decoration: underline;
+}
+footer {
+	background: #bba0c9;
+	width: 100%;
+}
+footer h3 {
+	font-family: "Segoe UI";
+	font-size: 4.5vw;
+	color: #000;
+	margin-left: .8%;
+}
+footer .barrita {  
+	width: 2px;
+	height: 28px;
+	background: #000;
+}
+footer .facebook, .youtube {
+	width: 100%;
+	margin-top: .5%;
+}

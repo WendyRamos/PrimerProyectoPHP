@@ -1,0 +1,56 @@
+header {
+    display: grid;
+    grid-template-columns: 300px 1049px;
+}
+section {
+    display: grid;
+    grid-template-columns: 400px 949px;
+    grid-template-rows: 322px 40px 40px 100px;
+}
+.infoAlumno {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px; 
+}
+section img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+section .infoAlumno div {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+section .infoAlumno .h31 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 70px;
+}
+section .infoAlumno .h32 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-self: center;
+}
+section .infoAlumno .h33 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+section .infoAlumno div {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 90px 90px;
+}
+section .i1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: end;
+}
+section .i2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    justify-self: end;
+}
+section .mensaje {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
